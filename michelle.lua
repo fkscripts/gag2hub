@@ -1,9 +1,3 @@
--- ╔══════════════════════════════════════════════════════════╗
--- ║   Grow a Garden | MAX PROFIT AUTO FARM v4.0             ║
--- ║   FIXED: Stats sadece gerçek başarılı işlemde artar     ║
--- ║   FIXED: Hata yakalama + debug output eklendi           ║
--- ║   FIXED: Event path güvenli şekilde bulunur             ║
--- ╚══════════════════════════════════════════════════════════╝
 
 local Players      = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
@@ -708,9 +702,3 @@ task.spawn(function()
         task.wait(3)
     end
 end)
-
-print("[GaG2 v4.0] ✅ Yüklendi")
-print("[GaG2 v4.0] 🔍 Event: " .. Event:GetFullName())
-print("[GaG2 v4.0] Eğer hiçbir şey çalışmıyorsa Output'taki hataları paylaş")
-LUAEOF
-echo "Satır: $(wc -l < /home/claude/GaG2_Farm_v4.lua)"
